@@ -1,0 +1,236 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+@font-face {
+    font-family: 'Alice', serif;
+    src: local(--fonte-destaque);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'typo';
+    src: url('Typo Grotesk Demo.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --cor0: #CBAA74;
+    --cor1: #C6A042;
+    --cor2: #BF212E;
+    --cor3: #590A10;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --fonte-padrao: serif;
+    --fonte-destaque: 'Alice', serif;
+    --fonte-typo: 'typo', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+
+a.externo::after{
+    content: '\00A0\1F517';
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor1));
+    text-align: center;
+    box-shadow: unset 6px 6px 13px 0px rgba(0, 0, 0, 0.450);
+    width: 100%;
+    max-height: 15%;
+    display: block;
+    position: fixed;
+}
+
+header > h1{
+    color: #590A10;
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    font-size: 2.2em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.350);
+}
+
+main{
+    min-width:300px;
+    max-width: 1000px;
+    margin-top: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.410);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+article{
+    margin-top: 8%;
+}
+
+table#laco{
+    border-collapse: collapse;
+}
+
+table td{
+    max-width: 100%;
+    padding-inline: 50px;
+    text-align: center;
+}
+
+main h1{
+    color: var(--cor5);
+    font-family: var(--fonte-typo);
+    font-weight: normal;
+    font-size: 1.5em;
+    text-indent: 8px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+main h2{
+    font-family: var(--fonte-typo);
+    color: var(--cor5);
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    font-weight: normal;
+    text-shadow: 2px 2px 0px hsla(0, 0%, 0%, 0.100);
+}
+
+main h3{
+    font-family: var(--fonte-typo);
+    color: var(--cor5);
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    font-weight: normal;
+    text-shadow: 2px 2px 0px hsla(0, 0%, 0%, 0.100);
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    line-height: 1.25em;
+}
+
+main article picture > img.sacola {
+    max-width: 32%;
+}
+
+div#cookie{
+    margin: 10%px;
+}
+
+div#cookie > table > img{
+    max-width: 750px;
+    min-width: 150px;
+    text-align: center;
+}
+
+td#noel{
+    font-size: 1.3em;
+    font-family: var(--fonte-destaque);
+    color: #590A10;
+    text-shadow: 2px 2px 0px hsla(0, 0%, 0%, 0.100);
+}
+
+main strong{
+    color: var(--cor5);
+    font-weight: bold;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    background-color: var(--cor1);
+    padding: 2px 6px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor4);
+    transition-duration: 0.3s;
+}
+
+main img{
+    width: 100%;
+}
+
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+div.imagens{
+    background-color: var(--cor1);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.410);
+    position: static;
+}
+
+ div.caixa img{
+    max-width: 48%;
+}
+
+div.caixa{
+    background-color: var(--cor1);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.410);
+    position: static;
+}
+
+aside{
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.410);
+}
+
+aside > h3{
+    text-align: center;
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer{
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a{
+    color: var(--cor1);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color: var(--cor2);
+    color: var(--cor4);
+    text-decoration: underline;
+    transition-duration: 0.3s;
+}
