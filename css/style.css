@@ -73,11 +73,12 @@ main{
 }
 
 article{
-    margin-top: 8%;
+    margin-top: 3%;
 }
 
 table#laco{
     border-collapse: collapse;
+    max-width: 100%;
 }
 
 table td{
@@ -89,17 +90,23 @@ table td{
 main h1{
     color: var(--cor5);
     font-family: var(--fonte-typo);
+    background-image: linear-gradient(to right, var(--cor0), transparent);
     font-weight: normal;
-    font-size: 1.5em;
+    font-size: 1.6em;
     text-indent: 8px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main h1#escolha{
+    color: var(--cor3);
 }
 
 main h2{
     font-family: var(--fonte-typo);
     color: var(--cor5);
     margin-bottom: 10px;
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-weight: normal;
     text-shadow: 2px 2px 0px hsla(0, 0%, 0%, 0.100);
 }
@@ -111,6 +118,14 @@ main h3{
     font-size: 1.3em;
     font-weight: normal;
     text-shadow: 2px 2px 0px hsla(0, 0%, 0%, 0.100);
+}
+
+main h3.verde{
+    color: var(--cor5);
+}
+
+main h3.vermelho{
+    color: var(--cor3);
 }
 
 main p{
@@ -136,7 +151,7 @@ div#cookie > table > img{
 td#noel{
     font-size: 1.3em;
     font-family: var(--fonte-destaque);
-    color: #590A10;
+    color: var(--cor5);
     text-shadow: 2px 2px 0px hsla(0, 0%, 0%, 0.100);
 }
 
@@ -196,6 +211,7 @@ div.caixa{
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.410);
     position: static;
+    max-height: 50%;
 }
 
 p.paragrafo{
