@@ -139,11 +139,11 @@ div#cookie{
     margin: 10%px;
 }
 
-div#cookie > table > img{
+div#cookie > table{
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.410);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.310);
     position: static;
     max-height: 50%;
 }
