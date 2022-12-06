@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'typo';
-    src: url('Typo Grotesk Demo.otf') format('opentype');
+    src: url('Typo Grotesk Demo.otf') format('.otf');
     font-weight: normal;
     font-style: normal;
 }
@@ -132,6 +132,7 @@ main p{
     margin: 15px 0px;
     text-align: justify;
     line-height: 1.25em;
+    font-family: 'typo', serif;
 }
 
 main article picture > img.sacola {
@@ -236,8 +237,8 @@ footer a{
 }
 
 footer a:hover{
-    background-color: var(--cor2);
-    color: var(--cor4);
+    background-color: var(--cor4);
+    color: var(--cor1);
     text-decoration: underline;
     transition-duration: 0.3s;
 }
