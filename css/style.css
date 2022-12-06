@@ -44,12 +44,8 @@ a.externo::after{
 
 header{
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor1));
+    min-height: 50px;
     text-align: center;
-    box-shadow: unset 6px 6px 13px 0px rgba(0, 0, 0, 0.450);
-    width: 100%;
-    max-height: 15%;
-    display: block;
-    position: fixed;
 }
 
 header > h1{
@@ -199,9 +195,14 @@ div.imagens{
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.410);
     position: static;
+    max-height: 50%;
 }
 
- div.caixa img{
+div.imagens img{
+    max-width: 32%;
+}
+
+div.caixa img{
     max-width: 48%;
 }
 
