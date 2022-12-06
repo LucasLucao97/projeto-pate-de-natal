@@ -145,15 +145,9 @@ div#cookie > table{
 }
 
 td#noel{
-    font-size: 1.3em;
     font-family: var(--fonte-destaque);
     color: var(--cor5);
     text-shadow: 2px 2px 0px hsla(0, 0%, 0%, 0.100);
-}
-
-img#gratis{
-    max-width: 750px;
-    min-width: 150px;
 }
 
 main strong{
