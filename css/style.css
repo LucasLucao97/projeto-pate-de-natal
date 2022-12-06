@@ -140,9 +140,12 @@ div#cookie{
 }
 
 div#cookie > table > img{
-    max-width: 750px;
-    min-width: 150px;
-    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.410);
+    position: static;
+    max-height: 50%;
 }
 
 td#noel{
