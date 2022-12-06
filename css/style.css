@@ -134,8 +134,8 @@ main p{
 main article picture > img.sacola {
     max-width: 32%;
 }
-
-div#cookie > table{
+div#cookie{
+    background-color: var(--cor1);
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 10px;
