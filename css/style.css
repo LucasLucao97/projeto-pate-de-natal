@@ -113,7 +113,7 @@ main h3{
     margin-bottom: 10px;
     font-size: 1.3em;
     font-weight: normal;
-    text-shadow: 2px 2px 0px hsla(0, 0%, 0%, 0.100);
+    text-shadow: 2px 2px 1px hsla(0, 0%, 0%, 0.250);
 }
 
 main h3.verde{
@@ -140,29 +140,9 @@ div#cookie{
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.310);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.410);
     position: static;
-    max-height: 50%;
-}
-
-article#introducao{
-    padding-left: 5px;
-    display: flex;
-    justify-content: space-between;
-}
-
-article#introducao > div{
-    padding: 15%;
-}
-
-article#introducao > picture{
-    padding: 2%;
-}
-
-td#noel{
-    font-family: var(--fonte-destaque);
-    color: var(--cor5);
-    text-shadow: 2px 2px 0px hsla(0, 0%, 0%, 0.100);
+    max-height: 48%;
 }
 
 main strong{
