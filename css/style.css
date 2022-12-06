@@ -134,6 +134,7 @@ main p{
 main article picture > img.sacola {
     max-width: 32%;
 }
+
 div#cookie{
     background-color: var(--cor1);
     padding: 10px;
@@ -142,6 +143,20 @@ div#cookie{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.310);
     position: static;
     max-height: 50%;
+}
+
+article#introducao{
+    padding-left: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+article#introducao > div{
+    padding: 15%;
+}
+
+article#introducao > picture{
+    padding: 2%;
 }
 
 td#noel{
